@@ -7,9 +7,6 @@
  */
 $DB_HOST        = "localhost";
 $DB_USER        = "root";
-$DB_PASSWORD    = "Magloire123";
+$DB_PASSWORD    = "";
 $DATABASE       = "forever";
-$BASE_URL       = "http://forever.local/";
-
-
-?>
+$BASE_URL       = "http://localhost/forever/";
