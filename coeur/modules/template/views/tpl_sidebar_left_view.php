@@ -37,29 +37,32 @@
                         <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">apps</i>Importation<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
                         <div class="collapsible-body">
                             <ul>
-                                <li><a href="mailbox.html">FBO</a></li>
-                                <li><a href="search.html">Bonus</a></li>
+                                <li><a href="<?php echo base_url() ?>importation">Bonus FBO</a></li>
+                                <li><a href="<?php echo base_url() ?>importation/actualise_fbo_info_banque">info banque</a></li>
                                 
                             </ul>
                         </div>
                     </li>
 
-                    <li class="no-padding">
-                        <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">apps</i>Reporting<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
+
+                     <li class="no-padding">
+                        <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">apps</i>Fbo<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
                         <div class="collapsible-body">
                             <ul>
-                                <li><a href="mailbox.html">Generer un etat</a></li>
-                                
+                                <li><a href="<?php echo base_url() ?>fbo">liste des fbo</a></li>
+                               
                                 
                             </ul>
                         </div>
                     </li>
+
+                    
 
                     <li class="no-padding">
                         <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">apps</i>Parametres<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
                         <div class="collapsible-body">
                             <ul>
-                                <li><a href="mailbox.html">Cree un utilisateur</a></li>
+                                <li><a href="#">Cree un utilisateur</a></li>
                                 
                                 
                             </ul>
